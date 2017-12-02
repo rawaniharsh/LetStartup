@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.raj5.placement">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main activity -->
+        <activity
+            android:name=".Register"
+            android:label="Sign up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        />
+        <activity
+            android:name=".Login"
+            android:label="Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Navigator"
+            android:label="@string/title_activity_navigator"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".FiltersActivity" />
+        <activity android:name=".Contact" />
+        <activity android:name=".Edit_profile" />
+        <activity android:name=".Editname" />
+        <activity android:name=".editpassword" />
+        <activity android:name=".editresume" />
+        <activity android:name=".editemail" />
+        <activity android:name=".editphoto"></activity>
+    </application>
+
+</manifest>

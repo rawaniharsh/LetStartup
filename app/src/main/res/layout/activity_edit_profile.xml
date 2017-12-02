@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/blue2"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/editname"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorAccent"
+            android:text="Edit Name"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/editphoto"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorAccent"
+            android:text="Edit profile photo"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/editpassword"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorAccent"
+            android:text="Change Password"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/changeemail"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorAccent"
+            android:text="Change Email"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/updatecv"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorAccent"
+            android:text="Update Resume"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <Button
+        android:id="@+id/submit"
+        style="?android:textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/blue4"
+        android:text="Submit"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
