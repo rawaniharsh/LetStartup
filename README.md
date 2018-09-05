@@ -1,0 +1,1 @@
+LetStartup is an android app which i developed in the Rajsthan Digifest, Udaipur in which anyone can register their startup and find the job seekers which they best suited and job seekers can also find jobs and follow various startups.
